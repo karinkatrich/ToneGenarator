@@ -9,19 +9,55 @@
 /* Begin PBXBuildFile section */
 		9A60F2A21DEE35AF00B2EA89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2A11DEE35AF00B2EA89 /* AppDelegate.swift */; };
 		9A60F2A41DEE35AF00B2EA89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2A31DEE35AF00B2EA89 /* ViewController.swift */; };
-		9A60F2A71DEE35AF00B2EA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F2A51DEE35AF00B2EA89 /* Main.storyboard */; };
 		9A60F2A91DEE35AF00B2EA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F2A81DEE35AF00B2EA89 /* Assets.xcassets */; };
-		9A60F2AC1DEE35AF00B2EA89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F2AA1DEE35AF00B2EA89 /* LaunchScreen.storyboard */; };
+		9A60F2B91DEE366800B2EA89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F2B81DEE366800B2EA89 /* LaunchScreen.storyboard */; };
+		9A60F2BB1DEE368700B2EA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F2BA1DEE368700B2EA89 /* Main.storyboard */; };
+		9A60F2BD1DEE371F00B2EA89 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2BC1DEE371F00B2EA89 /* Service.swift */; };
+		9A60F2BF1DEE372900B2EA89 /* Sequences.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2BE1DEE372900B2EA89 /* Sequences.xcdatamodel */; };
+		9A60F2C41DEE373400B2EA89 /* ToneEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2C01DEE373400B2EA89 /* ToneEntity+CoreDataProperties.swift */; };
+		9A60F2C51DEE373400B2EA89 /* ToneEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2C11DEE373400B2EA89 /* ToneEntity.swift */; };
+		9A60F2C61DEE373400B2EA89 /* SequenceEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2C21DEE373400B2EA89 /* SequenceEntity+CoreDataProperties.swift */; };
+		9A60F2C71DEE373400B2EA89 /* SequenceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2C31DEE373400B2EA89 /* SequenceEntity.swift */; };
+		9A60F2CB1DEE375700B2EA89 /* SequencePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2C81DEE375700B2EA89 /* SequencePlayer.swift */; };
+		9A60F2CC1DEE375700B2EA89 /* SPlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2C91DEE375700B2EA89 /* SPlayerDelegate.swift */; };
+		9A60F2CD1DEE375700B2EA89 /* FMSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2CA1DEE375700B2EA89 /* FMSynthesizer.swift */; };
+		9A60F2CF1DEE376300B2EA89 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2CE1DEE376300B2EA89 /* UIColor+Ext.swift */; };
+		9A60F2D11DEE38A400B2EA89 /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A60F2D01DEE38A400B2EA89 /* Colors.plist */; };
+		9A60F2D31DEE38AB00B2EA89 /* PresetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2D21DEE38AB00B2EA89 /* PresetsTableViewController.swift */; };
+		9A60F2D91DEE38B600B2EA89 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2D41DEE38B600B2EA89 /* CustomTableViewController.swift */; };
+		9A60F2DA1DEE38B600B2EA89 /* SelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2D51DEE38B600B2EA89 /* SelectTableViewController.swift */; };
+		9A60F2DB1DEE38B600B2EA89 /* SequenceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2D61DEE38B600B2EA89 /* SequenceTableViewController.swift */; };
+		9A60F2DC1DEE38B600B2EA89 /* SelectDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2D71DEE38B600B2EA89 /* SelectDelegate.swift */; };
+		9A60F2DD1DEE38B600B2EA89 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2D81DEE38B600B2EA89 /* ColorViewController.swift */; };
+		9A60F2DF1DEE38BD00B2EA89 /* ImportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60F2DE1DEE38BD00B2EA89 /* ImportManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A60F29E1DEE35AF00B2EA89 /* ToneGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToneGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A60F2A11DEE35AF00B2EA89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A60F2A31DEE35AF00B2EA89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A60F2A61DEE35AF00B2EA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A60F2A81DEE35AF00B2EA89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A60F2AB1DEE35AF00B2EA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A60F2AD1DEE35AF00B2EA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A60F2B81DEE366800B2EA89 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A60F2BA1DEE368700B2EA89 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9A60F2BC1DEE371F00B2EA89 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		9A60F2BE1DEE372900B2EA89 /* Sequences.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sequences.xcdatamodel; sourceTree = "<group>"; };
+		9A60F2C01DEE373400B2EA89 /* ToneEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ToneEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9A60F2C11DEE373400B2EA89 /* ToneEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneEntity.swift; sourceTree = "<group>"; };
+		9A60F2C21DEE373400B2EA89 /* SequenceEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SequenceEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9A60F2C31DEE373400B2EA89 /* SequenceEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceEntity.swift; sourceTree = "<group>"; };
+		9A60F2C81DEE375700B2EA89 /* SequencePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequencePlayer.swift; sourceTree = "<group>"; };
+		9A60F2C91DEE375700B2EA89 /* SPlayerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPlayerDelegate.swift; sourceTree = "<group>"; };
+		9A60F2CA1DEE375700B2EA89 /* FMSynthesizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMSynthesizer.swift; sourceTree = "<group>"; };
+		9A60F2CE1DEE376300B2EA89 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		9A60F2D01DEE38A400B2EA89 /* Colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Colors.plist; sourceTree = "<group>"; };
+		9A60F2D21DEE38AB00B2EA89 /* PresetsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetsTableViewController.swift; sourceTree = "<group>"; };
+		9A60F2D41DEE38B600B2EA89 /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		9A60F2D51DEE38B600B2EA89 /* SelectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTableViewController.swift; sourceTree = "<group>"; };
+		9A60F2D61DEE38B600B2EA89 /* SequenceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceTableViewController.swift; sourceTree = "<group>"; };
+		9A60F2D71DEE38B600B2EA89 /* SelectDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDelegate.swift; sourceTree = "<group>"; };
+		9A60F2D81DEE38B600B2EA89 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		9A60F2DE1DEE38BD00B2EA89 /* ImportManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +90,64 @@
 		9A60F2A01DEE35AF00B2EA89 /* ToneGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				9A60F2B41DEE35FE00B2EA89 /* Player */,
+				9A60F2B31DEE35F000B2EA89 /* CoreData */,
+				9A60F2B61DEE361F00B2EA89 /* ColorPicker */,
+				9A60F2B51DEE360F00B2EA89 /* Tools */,
 				9A60F2A11DEE35AF00B2EA89 /* AppDelegate.swift */,
 				9A60F2A31DEE35AF00B2EA89 /* ViewController.swift */,
-				9A60F2A51DEE35AF00B2EA89 /* Main.storyboard */,
+				9A60F2BA1DEE368700B2EA89 /* Main.storyboard */,
 				9A60F2A81DEE35AF00B2EA89 /* Assets.xcassets */,
-				9A60F2AA1DEE35AF00B2EA89 /* LaunchScreen.storyboard */,
+				9A60F2B81DEE366800B2EA89 /* LaunchScreen.storyboard */,
 				9A60F2AD1DEE35AF00B2EA89 /* Info.plist */,
+				9A60F2D01DEE38A400B2EA89 /* Colors.plist */,
+				9A60F2D21DEE38AB00B2EA89 /* PresetsTableViewController.swift */,
+				9A60F2D41DEE38B600B2EA89 /* CustomTableViewController.swift */,
+				9A60F2D51DEE38B600B2EA89 /* SelectTableViewController.swift */,
+				9A60F2D61DEE38B600B2EA89 /* SequenceTableViewController.swift */,
+				9A60F2D71DEE38B600B2EA89 /* SelectDelegate.swift */,
+				9A60F2D81DEE38B600B2EA89 /* ColorViewController.swift */,
+				9A60F2DE1DEE38BD00B2EA89 /* ImportManager.swift */,
 			);
 			path = ToneGenerator;
+			sourceTree = "<group>";
+		};
+		9A60F2B31DEE35F000B2EA89 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9A60F2BC1DEE371F00B2EA89 /* Service.swift */,
+				9A60F2BE1DEE372900B2EA89 /* Sequences.xcdatamodel */,
+				9A60F2C01DEE373400B2EA89 /* ToneEntity+CoreDataProperties.swift */,
+				9A60F2C11DEE373400B2EA89 /* ToneEntity.swift */,
+				9A60F2C21DEE373400B2EA89 /* SequenceEntity+CoreDataProperties.swift */,
+				9A60F2C31DEE373400B2EA89 /* SequenceEntity.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		9A60F2B41DEE35FE00B2EA89 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				9A60F2C81DEE375700B2EA89 /* SequencePlayer.swift */,
+				9A60F2C91DEE375700B2EA89 /* SPlayerDelegate.swift */,
+				9A60F2CA1DEE375700B2EA89 /* FMSynthesizer.swift */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		9A60F2B51DEE360F00B2EA89 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9A60F2CE1DEE376300B2EA89 /* UIColor+Ext.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		9A60F2B61DEE361F00B2EA89 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ColorPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +209,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A60F2AC1DEE35AF00B2EA89 /* LaunchScreen.storyboard in Resources */,
+				9A60F2D11DEE38A400B2EA89 /* Colors.plist in Resources */,
+				9A60F2B91DEE366800B2EA89 /* LaunchScreen.storyboard in Resources */,
 				9A60F2A91DEE35AF00B2EA89 /* Assets.xcassets in Resources */,
-				9A60F2A71DEE35AF00B2EA89 /* Main.storyboard in Resources */,
+				9A60F2BB1DEE368700B2EA89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,30 +224,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A60F2A41DEE35AF00B2EA89 /* ViewController.swift in Sources */,
+				9A60F2C61DEE373400B2EA89 /* SequenceEntity+CoreDataProperties.swift in Sources */,
+				9A60F2BF1DEE372900B2EA89 /* Sequences.xcdatamodel in Sources */,
+				9A60F2C51DEE373400B2EA89 /* ToneEntity.swift in Sources */,
+				9A60F2DB1DEE38B600B2EA89 /* SequenceTableViewController.swift in Sources */,
 				9A60F2A21DEE35AF00B2EA89 /* AppDelegate.swift in Sources */,
+				9A60F2CD1DEE375700B2EA89 /* FMSynthesizer.swift in Sources */,
+				9A60F2C71DEE373400B2EA89 /* SequenceEntity.swift in Sources */,
+				9A60F2BD1DEE371F00B2EA89 /* Service.swift in Sources */,
+				9A60F2DA1DEE38B600B2EA89 /* SelectTableViewController.swift in Sources */,
+				9A60F2DF1DEE38BD00B2EA89 /* ImportManager.swift in Sources */,
+				9A60F2CC1DEE375700B2EA89 /* SPlayerDelegate.swift in Sources */,
+				9A60F2CF1DEE376300B2EA89 /* UIColor+Ext.swift in Sources */,
+				9A60F2C41DEE373400B2EA89 /* ToneEntity+CoreDataProperties.swift in Sources */,
+				9A60F2DC1DEE38B600B2EA89 /* SelectDelegate.swift in Sources */,
+				9A60F2CB1DEE375700B2EA89 /* SequencePlayer.swift in Sources */,
+				9A60F2D91DEE38B600B2EA89 /* CustomTableViewController.swift in Sources */,
+				9A60F2DD1DEE38B600B2EA89 /* ColorViewController.swift in Sources */,
+				9A60F2D31DEE38AB00B2EA89 /* PresetsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9A60F2A51DEE35AF00B2EA89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A60F2A61DEE35AF00B2EA89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9A60F2AA1DEE35AF00B2EA89 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A60F2AB1DEE35AF00B2EA89 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9A60F2AE1DEE35AF00B2EA89 /* Debug */ = {
